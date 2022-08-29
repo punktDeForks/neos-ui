@@ -11150,9 +11150,9 @@ moment@*, moment@^2.10.3, moment@^2.14.1, moment@^2.19.2, moment@^2.20.1, moment
   integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
 
 monet@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/monet/-/monet-0.9.0.tgz#77a5d112950243ac89189fadb745fb542313cbdb"
-  integrity sha512-63UOb3RD3zXP3F2kMhYDKZD0V4HBxWgaIHNkp1p+BBCS1AYX51o0o9JJ31KZKuX4aISw4lUwaH4oFbyiKsswgg==
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/monet/-/monet-0.9.3.tgz#b296747d5dc6dc13f51b4c7e85ed01d787b031a1"
+  integrity sha512-t1hzyR2uXrkENSn1cZC487Tb6FcLUMBvRnCvTT/1SE/uJy6OJR2l9tb80p+tZOuopFK4+Ch4gy0vxr9nkqxT/w==
 
 moo@^0.4.3:
   version "0.4.3"
