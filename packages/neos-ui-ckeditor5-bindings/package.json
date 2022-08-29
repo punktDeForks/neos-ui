@@ -29,7 +29,7 @@
     "@neos-project/neos-ui-redux-store": "5.3.5",
     "@neos-project/react-ui-components": "5.3.5",
     "@neos-project/utils-helpers": "5.3.5",
-    "raw-loader": "^0.5"
+    "raw-loader": "^4.0"
   },
   "license": "GNU GPLv3"
 }
