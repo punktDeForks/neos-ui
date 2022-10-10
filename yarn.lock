@@ -336,6 +336,17 @@
     "@ckeditor/ckeditor5-engine" "^16.0.0"
     "@ckeditor/ckeditor5-utils" "^16.0.0"
 
+"@ckeditor/ckeditor5-clipboard@^35.2.0":
+  version "35.2.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-clipboard/-/ckeditor5-clipboard-35.2.0.tgz#17a404feed7d9d7502a9613d1cd8ee6220d63520"
+  integrity sha512-1bYG0kES9A6Ue7g0KzGGgvOa4rWtSAsBZbYHf64IxdbAuXx0Gl7OVtSzwVEm21n/yHSIKME6hwegnnphmAdU5w==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^35.2.0"
+    "@ckeditor/ckeditor5-engine" "^35.2.0"
+    "@ckeditor/ckeditor5-utils" "^35.2.0"
+    "@ckeditor/ckeditor5-widget" "^35.2.0"
+    lodash-es "^4.17.11"
+
 "@ckeditor/ckeditor5-core@^12.2.1", "@ckeditor/ckeditor5-core@^12.3.0":
   version "12.3.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-core/-/ckeditor5-core-12.3.0.tgz#8b230c86fce19ffd76b46f45fff5f8a50a7f3ef9"
@@ -353,6 +364,16 @@
     "@ckeditor/ckeditor5-engine" "^16.0.0"
     "@ckeditor/ckeditor5-utils" "^16.0.0"
     lodash-es "^4.17.10"
+
+"@ckeditor/ckeditor5-core@^35.2.0":
+  version "35.2.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-core/-/ckeditor5-core-35.2.0.tgz#39dc1eaa8984078ed57caf0449b17e8462294e9d"
+  integrity sha512-3LVCTRNw+mkjwCQwvd1tiZCISFqpwgyRYQfzkg7Z50qkc4WNC6LJK8JDsSVgL5U13US/Vwm5lrwk30kZXNXYMw==
+  dependencies:
+    "@ckeditor/ckeditor5-engine" "^35.2.0"
+    "@ckeditor/ckeditor5-ui" "^35.2.0"
+    "@ckeditor/ckeditor5-utils" "^35.2.0"
+    lodash-es "^4.17.15"
 
 "@ckeditor/ckeditor5-dev-utils@^12.0.1":
   version "12.0.5"
@@ -413,6 +434,14 @@
     "@ckeditor/ckeditor5-utils" "^16.0.0"
     lodash-es "^4.17.10"
 
+"@ckeditor/ckeditor5-engine@^35.2.0":
+  version "35.2.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-engine/-/ckeditor5-engine-35.2.0.tgz#6703b1c4e7f4f7e09b2d9ed8a95472086e7a3d4c"
+  integrity sha512-E7PHul1/EqFS9uzhfR5dWKUNBO8FLsrx78rYt5fc2ZS7+YQliO/ybuoGxGZYmdvBcgUcpXGE9GcrobQ/t2BpVg==
+  dependencies:
+    "@ckeditor/ckeditor5-utils" "^35.2.0"
+    lodash-es "^4.17.15"
+
 "@ckeditor/ckeditor5-enter@^11.1.0":
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-enter/-/ckeditor5-enter-11.1.0.tgz#d2f5a20ed01afea2988aec43b47e87a8f6a93243"
@@ -430,6 +459,15 @@
     "@ckeditor/ckeditor5-core" "^16.0.0"
     "@ckeditor/ckeditor5-engine" "^16.0.0"
     "@ckeditor/ckeditor5-utils" "^16.0.0"
+
+"@ckeditor/ckeditor5-enter@^35.2.0":
+  version "35.2.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-enter/-/ckeditor5-enter-35.2.0.tgz#2c801cb69aa798bf81561211611605d296b6ef6e"
+  integrity sha512-HUxBOknOuGFxeaobf3OJ1rF56GwOhg2483OZ+TRiqfsd5Ns5K2w6KGSJVqdaNbf5qQBLSbcWJ9ThQB/KmZjnPA==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^35.2.0"
+    "@ckeditor/ckeditor5-engine" "^35.2.0"
+    "@ckeditor/ckeditor5-utils" "^35.2.0"
 
 "@ckeditor/ckeditor5-essentials@^11.0.2":
   version "11.0.5"
@@ -481,25 +519,14 @@
     "@ckeditor/ckeditor5-core" "^12.3.0"
     "@ckeditor/ckeditor5-ui" "^14.0.0"
 
-"@ckeditor/ckeditor5-link@^11.0.2":
-  version "11.1.2"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-link/-/ckeditor5-link-11.1.2.tgz#73486884f715fb3cd7ed61cd4d02f0a643f3d1c8"
-  integrity sha512-0XPGEhg8wgHlIyxUZqk8mgFYpMwZ1JrzhccWPddR1QDz0hWMb3GGQ1tSD0k6PlGdFeMWsjmvuhm9MwHBDn54qg==
+"@ckeditor/ckeditor5-link@^35.2.0":
+  version "35.2.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-link/-/ckeditor5-link-35.2.0.tgz#463a1f356d183095ea9781c70fa085b64679c2ac"
+  integrity sha512-hLHe/Ujti4jAwxk/7Ax61IdPieceRdDQ7g/ZiDOt/ONhayzI6lyxfTW+SBiijsFs5ArgFZVnDUBF9CK0MKGl2A==
   dependencies:
-    "@ckeditor/ckeditor5-core" "^12.3.0"
-    "@ckeditor/ckeditor5-engine" "^14.0.0"
-    "@ckeditor/ckeditor5-ui" "^14.0.0"
-    lodash-es "^4.17.10"
-
-"@ckeditor/ckeditor5-link@^16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-link/-/ckeditor5-link-16.0.0.tgz#4fc76ae1f9806d13b7907c362660e705f48ec6c7"
-  integrity sha512-w+TTQSItGrXLknfV31d90pV4mqLhxxNkViEfedQcwQlvx5BpjRYRvgaVjQXRFPVv38V72PtxLjuYfJQT8bZjAA==
-  dependencies:
-    "@ckeditor/ckeditor5-core" "^16.0.0"
-    "@ckeditor/ckeditor5-engine" "^16.0.0"
-    "@ckeditor/ckeditor5-ui" "^16.0.0"
-    lodash-es "^4.17.10"
+    "@ckeditor/ckeditor5-ui" "^35.2.0"
+    ckeditor5 "^35.2.0"
+    lodash-es "^4.17.15"
 
 "@ckeditor/ckeditor5-list@^12.0.2":
   version "12.1.0"
@@ -541,6 +568,24 @@
     "@ckeditor/ckeditor5-ui" "^16.0.0"
     "@ckeditor/ckeditor5-utils" "^16.0.0"
 
+"@ckeditor/ckeditor5-paragraph@^35.2.0":
+  version "35.2.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-paragraph/-/ckeditor5-paragraph-35.2.0.tgz#f7b11ee4482baa4b1887bf74c471f533425f2d76"
+  integrity sha512-alM4bCJAKZ8SBHdfRLJ+dhZRua49CGa3mCvDf8ASxixfr/ssbMtlBxNczi/Mq4Py8q1PIhKfKnOg8o/Dd+PrBA==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^35.2.0"
+    "@ckeditor/ckeditor5-ui" "^35.2.0"
+    "@ckeditor/ckeditor5-utils" "^35.2.0"
+
+"@ckeditor/ckeditor5-select-all@^35.2.0":
+  version "35.2.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-select-all/-/ckeditor5-select-all-35.2.0.tgz#717d78e0877b9ffc4343ca6e75d693f1dcbadeae"
+  integrity sha512-am7uJL7kj09rvkSMJ+DtQ4ctJWf8ze3JaFciQnmKj9herKPexRUB+Gzh9Ciz4KnR5nqx1SmYR7DRs2yEIALWQA==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^35.2.0"
+    "@ckeditor/ckeditor5-ui" "^35.2.0"
+    "@ckeditor/ckeditor5-utils" "^35.2.0"
+
 "@ckeditor/ckeditor5-table@^13.0.0":
   version "13.0.2"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-table/-/ckeditor5-table-13.0.2.tgz#95f985bfb89443aa7ae4d0c2fa56baff8c3171e5"
@@ -579,6 +624,16 @@
     "@ckeditor/ckeditor5-utils" "^16.0.0"
     lodash-es "^4.17.10"
 
+"@ckeditor/ckeditor5-typing@^35.2.0":
+  version "35.2.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-typing/-/ckeditor5-typing-35.2.0.tgz#93a4b056a206cdf534567d8fc12fb89ef4881f45"
+  integrity sha512-085zwrKE060AYMCR+Tw1r1WrMcN1SfDtZZ6W6SO14aHNWgTHAlctldnGsbV+tR9FHGRVWJRdCD1WIHjCoX/bag==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^35.2.0"
+    "@ckeditor/ckeditor5-engine" "^35.2.0"
+    "@ckeditor/ckeditor5-utils" "^35.2.0"
+    lodash-es "^4.17.15"
+
 "@ckeditor/ckeditor5-ui@^13.0.2":
   version "13.0.2"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-ui/-/ckeditor5-ui-13.0.2.tgz#99978d89ff5a5adbd28ac6586477501ac2db266a"
@@ -606,6 +661,15 @@
     "@ckeditor/ckeditor5-utils" "^16.0.0"
     lodash-es "^4.17.10"
 
+"@ckeditor/ckeditor5-ui@^35.2.0":
+  version "35.2.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-ui/-/ckeditor5-ui-35.2.0.tgz#b8c2dbd3461e5b66b738dd4343375ca167ffbac9"
+  integrity sha512-Sc6YFYnxw0X4AqNB5/3G83uUkurzlFORksNKS1+lBOusV4OLQkhuxW3wIjjJ8LPBOMAxiTyhKVDSbK42JO6S/w==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^35.2.0"
+    "@ckeditor/ckeditor5-utils" "^35.2.0"
+    lodash-es "^4.17.15"
+
 "@ckeditor/ckeditor5-undo@^11.0.5":
   version "11.0.5"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-undo/-/ckeditor5-undo-11.0.5.tgz#3ef3cf9b75a11bd693bb75ae1dfb2d68ac36217d"
@@ -623,6 +687,24 @@
     "@ckeditor/ckeditor5-core" "^16.0.0"
     "@ckeditor/ckeditor5-engine" "^16.0.0"
     "@ckeditor/ckeditor5-ui" "^16.0.0"
+
+"@ckeditor/ckeditor5-undo@^35.2.0":
+  version "35.2.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-undo/-/ckeditor5-undo-35.2.0.tgz#a79d70336c16a3de2b36ca8b393dab929b319909"
+  integrity sha512-wO/u7jhIwvh/Wi8tExQDKlLLSeGJf/sxjHx8qQFl3xjrdQAeQIhrylhl3GKb5cgfn0KSnoCmcpibI1U6zuerfg==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^35.2.0"
+    "@ckeditor/ckeditor5-engine" "^35.2.0"
+    "@ckeditor/ckeditor5-ui" "^35.2.0"
+
+"@ckeditor/ckeditor5-upload@^35.2.0":
+  version "35.2.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-upload/-/ckeditor5-upload-35.2.0.tgz#45c566dac6e2db9dd89d4a286ea4c72649ad36b8"
+  integrity sha512-P7eG8z0K+G95+1VqADqvBFZYHd3+rzwrfB0QMO/dmyGTL+8H5TKLksHjA2GBPwn9FH0GpCAUaR58z9UvIUyPVA==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^35.2.0"
+    "@ckeditor/ckeditor5-ui" "^35.2.0"
+    "@ckeditor/ckeditor5-utils" "^35.2.0"
 
 "@ckeditor/ckeditor5-utils@^13.0.1":
   version "13.0.1"
@@ -647,6 +729,13 @@
   dependencies:
     lodash-es "^4.17.10"
 
+"@ckeditor/ckeditor5-utils@^35.2.0":
+  version "35.2.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-utils/-/ckeditor5-utils-35.2.0.tgz#837d9fb9eff6844545094a32eb5865df1041e0d8"
+  integrity sha512-SmSjGKklDCArA1xT8ZE16CIPyMk+/Gr5sDkPoKX9ZfOqRXHlhYhEjRJFkppxAGQ3fmn3E2bevFUQpLeM3l1wKQ==
+  dependencies:
+    lodash-es "^4.17.15"
+
 "@ckeditor/ckeditor5-widget@^11.0.2", "@ckeditor/ckeditor5-widget@^11.0.4":
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-widget/-/ckeditor5-widget-11.1.0.tgz#a909bd4d18af4038b93483491669b952fd8a7d63"
@@ -668,6 +757,19 @@
     "@ckeditor/ckeditor5-ui" "^16.0.0"
     "@ckeditor/ckeditor5-utils" "^16.0.0"
     lodash-es "^4.17.10"
+
+"@ckeditor/ckeditor5-widget@^35.2.0":
+  version "35.2.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-widget/-/ckeditor5-widget-35.2.0.tgz#c88585361e28fb2dedd8e3dbf7ebcac1047656d8"
+  integrity sha512-1I0Mul/dSNFbyZuAt5v2GAMlelq3gMvlF5OT+GwWxIAK5I/GRDDmJ8mVVDwrnCPRmfotq5eqvzaGYb4C79DReA==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^35.2.0"
+    "@ckeditor/ckeditor5-engine" "^35.2.0"
+    "@ckeditor/ckeditor5-enter" "^35.2.0"
+    "@ckeditor/ckeditor5-typing" "^35.2.0"
+    "@ckeditor/ckeditor5-ui" "^35.2.0"
+    "@ckeditor/ckeditor5-utils" "^35.2.0"
+    lodash-es "^4.17.15"
 
 "@fortawesome/fontawesome-common-types@^0.2.27":
   version "0.2.27"
@@ -4543,6 +4645,24 @@ ckeditor5@^12.3.1, ckeditor5@^12.4.0:
   version "12.4.0"
   resolved "https://registry.yarnpkg.com/ckeditor5/-/ckeditor5-12.4.0.tgz#60bfc4848d29f6c9d5915fa588017152fbd3db60"
   integrity sha512-gd6PGm3pId5KibAZNvACc5NN657xP0IEyqziRI0tBFnLyXgDjw3e8Uu2zkIEUbxPR2vXG1J7PoqS9ZxJuE9XTQ==
+
+ckeditor5@^35.2.0:
+  version "35.2.0"
+  resolved "https://registry.yarnpkg.com/ckeditor5/-/ckeditor5-35.2.0.tgz#c1088fa4639062ee8060fd5ea53cfaa174deb9fd"
+  integrity sha512-2Sy2q4SPPR6hgzLgXg7BylT0gFwoLqwrtI1gBYi8ZVI4MlAyOf5uPG/QtNu4+2NHBAqIDV0fnys/YSq0aTTYIQ==
+  dependencies:
+    "@ckeditor/ckeditor5-clipboard" "^35.2.0"
+    "@ckeditor/ckeditor5-core" "^35.2.0"
+    "@ckeditor/ckeditor5-engine" "^35.2.0"
+    "@ckeditor/ckeditor5-enter" "^35.2.0"
+    "@ckeditor/ckeditor5-paragraph" "^35.2.0"
+    "@ckeditor/ckeditor5-select-all" "^35.2.0"
+    "@ckeditor/ckeditor5-typing" "^35.2.0"
+    "@ckeditor/ckeditor5-ui" "^35.2.0"
+    "@ckeditor/ckeditor5-undo" "^35.2.0"
+    "@ckeditor/ckeditor5-upload" "^35.2.0"
+    "@ckeditor/ckeditor5-utils" "^35.2.0"
+    "@ckeditor/ckeditor5-widget" "^35.2.0"
 
 clap@^1.0.9:
   version "1.2.3"
@@ -10203,10 +10323,10 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash-es@^4.17.10, lodash-es@^4.2.1:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
-  integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
+lodash-es@^4.17.10, lodash-es@^4.17.11, lodash-es@^4.17.15, lodash-es@^4.2.1:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
 
 lodash._getnative@^3.0.0:
   version "3.9.1"
