@@ -116,7 +116,9 @@ abstract class AbstractCreate extends AbstractStructuralChange
         $contentRepository = $this->contentRepositoryRegistry->get($parentNode->subgraphIdentity->contentRepositoryId);
 
         $commands = $this->applyNodeCreationHandlers(
-            new NodeCreationCommands($command),
+            NodeCreationCommands::fromFirstCommand(
+                $command
+            ),
             $nodeTypeName,
             $contentRepository
         );
