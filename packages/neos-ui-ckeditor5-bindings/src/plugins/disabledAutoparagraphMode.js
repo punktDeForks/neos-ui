@@ -1,12 +1,12 @@
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 
 /**
- * HACK, since there is yet no native support
- * see https://github.com/ckeditor/ckeditor5/issues/762
+ * Legacy HACK -> our previous "inlineMode" the `autoparagraph: false` mode for backwards compatibility
+ * @deprecated in favour of the serious "inlineMode"
  */
-export default class InlineMode extends Plugin {
+export default class DisabledAutoparagraphMode extends Plugin {
     static get pluginName() {
-        return 'InlineMode';
+        return 'DisabledAutoparagraphMode';
     }
 
     init() {

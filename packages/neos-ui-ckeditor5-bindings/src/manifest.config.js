@@ -2,7 +2,7 @@ import CkEditorConfigRegistry from './registry/CkEditorConfigRegistry';
 import {$add, $get, $or} from 'plow-js';
 
 import NeosPlaceholder from './plugins/neosPlaceholder';
-import InlineMode from './plugins/inlineMode';
+import DisabledAutoparagraphMode from './plugins/disabledAutoparagraphMode';
 import Sub from './plugins/sub';
 import Sup from './plugins/sup';
 import LinkTargetBlank from './plugins/linkTargetBlank';
@@ -35,7 +35,7 @@ const addPlugin = (Plugin, isEnabled) => (ckEditorConfiguration, options) => {
 
 // If the editable is a span or a heading, we automatically disable paragraphs and enable the soft break mode
 // Also possible to force this behavior with `autoparagraph: false`
-const disableParagraph = (editorOptions, {propertyDomNode}) =>
+const disableAutoparagraph = (editorOptions, {propertyDomNode}) =>
     $get('autoparagraph', editorOptions) === false ||
     propertyDomNode.tagName === 'SPAN' ||
     propertyDomNode.tagName === 'H1' ||
@@ -97,7 +97,8 @@ export default ckEditorRegistry => {
     //
     config.set('essentials', addPlugin(Essentials));
     config.set('paragraph', addPlugin(Paragraph));
-    config.set('inlineMode', addPlugin(InlineMode, disableParagraph));
+    // @deprecated
+    config.set('disabledAutoparagraphMode', addPlugin(DisabledAutoparagraphMode, disableAutoparagraph));
     config.set('neosPlaceholder', addPlugin(NeosPlaceholder));
     config.set('sub', addPlugin(Sub, $get('formatting.sub')));
     config.set('sup', addPlugin(Sup, $get('formatting.sup')));
