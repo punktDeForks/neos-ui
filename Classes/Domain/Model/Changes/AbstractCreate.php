@@ -45,6 +45,11 @@ abstract class AbstractCreate extends AbstractStructuralChange
     protected ?string $name = null;
 
     /**
+     * An (optional) node aggregate identifier that will be used for testing
+     */
+    protected ?NodeAggregateId $nodeAggregateId = null;
+
+    /**
      * @param string $nodeTypeName
      */
     public function setNodeType(string $nodeTypeName): void
@@ -84,6 +89,16 @@ abstract class AbstractCreate extends AbstractStructuralChange
         return $this->name;
     }
 
+    public function setNodeAggregateId(string $nodeAggregateId): void
+    {
+        $this->nodeAggregateId = NodeAggregateId::fromString($nodeAggregateId);
+    }
+
+    public function getNodeAggregateId(): ?NodeAggregateId
+    {
+        return $this->nodeAggregateId;
+    }
+
     /**
      * @param Node $parentNode
      * @param NodeAggregateId|null $succeedingSiblingNodeAggregateId
@@ -102,7 +117,7 @@ abstract class AbstractCreate extends AbstractStructuralChange
         // $name = $this->getName() ?: $this->nodeService->generateUniqueNodeName($parent->findParentNode());
         $nodeName = NodeName::fromString($this->getName() ?: uniqid('node-', false));
 
-        $nodeAggregateId = NodeAggregateId::create(); // generate a new NodeAggregateId
+        $nodeAggregateId = $this->getNodeAggregateId() ?? NodeAggregateId::create(); // generate a new NodeAggregateId
 
         $command = new CreateNodeAggregateWithNode(
             $parentNode->subgraphIdentity->contentStreamId,
