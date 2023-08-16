@@ -10,7 +10,8 @@ import {PickDefaultProps} from '../utils-typescript';
 import Button from '../Button';
 import Icon from '../Icon';
 
-import 'moment/min/locales.min';
+// WHY: Because momentJs locales are not bundled automatically, we have to explicitly add them.
+import 'moment/locale/de';
 
 export interface DateInputProps {
     /**
